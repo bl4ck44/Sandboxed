@@ -1,7 +1,7 @@
 # Sandboxed
 
 <p align="center">
-<img src="Logotipo.png" width="400px">
+<img src="Logotipo.png" width="400px" height="75px">
 </p>
 
 Un sandbox es un entorno de pruebas aislado en el que se pueden ejecutar aplicaciones o programas sin afectar el sistema operativo subyacente. Se utiliza con frecuencia para probar software nuevo, realizar pruebas de seguridad y aislar aplicaciones que pueden ser sospechosas o potencialmente maliciosas.
@@ -21,11 +21,11 @@ python3 sandbox.py
 ```
 
 <p align="center">
-<img src="Img/setup.png" width="670px">
+<img src="Img/setup.png" width="650px">
 </p>
 
 <p align="center">
-<img src="Img/sandbox.png" width="670px">
+<img src="Img/sandbox.png" width="650px">
 </p>
 
 <br>
