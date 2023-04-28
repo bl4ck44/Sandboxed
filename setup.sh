@@ -218,7 +218,7 @@ case $opcion in
 
            1) echo
            Comprobar
-           sleep 2.0;;
+           sleep 3.0;;
 
            2) echo
            Instalar
