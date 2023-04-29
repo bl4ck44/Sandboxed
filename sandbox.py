@@ -1,24 +1,6 @@
 import os
 import subprocess
 
-GREEN = '\033[32m'
-YELLOW = '\033[33m'
-BLUE = '\033[34m'
-MAGENTA = '\033[35m'
-CYAN = '\033[36m'
-WHITE = '\033[37m'
-RESET = '\033[39m'
-HEADER = '\033[95m'
-IMPORTANT = '\33[35m'
-NOTICE = '\033[33m'
-OKBLUE = '\033[94m'
-OKGREEN = '\033[92m'
-WARNING = '\033[93m'
-RED = '\033[91m'
-END = '\033[0m'
-UNDERLINE = '\033[4m'
-LOGGING = '\33[34m'
-
 os.system("clear")
 # Definir el nombre de la carpeta
 Resultados = "Resultados"
@@ -59,7 +41,9 @@ def menu_principal():
         print("[3] Examinar documentos sospechosos")
         print("[4] Salir")
         opcion = input("\033[1m\n[+] Ingrese una opción: \033[0m")
-        if opcion == "1":
+        if opcion == "":
+            print("\n[+] Por favor ingrese una opción")
+        elif opcion == "1":
             menu1()
         elif opcion == "2":
             menu2()
