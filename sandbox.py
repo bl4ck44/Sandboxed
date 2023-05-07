@@ -215,8 +215,7 @@ def menu3():
     while True:
         pregunta2 = input("\033[1m\n[+] Ingresa la ubicación del archivo para analizar: \033[0m")
         print("\n[1] Archivos de Microsoft Office")
-        print("[2] Archivos RTF")
-        print("[3] Archivos PDF")
+        print("[2] Archivos PDF")
         print("[99] Volver al menú")
         opcion = input("\033[1m\n[+] Ingrese una opción: \033[0m")
         if opcion == "1":
@@ -268,9 +267,9 @@ def menu3():
                         contenido = archivo.read()
                         print(contenido)
                     # Salir de la carpeta
-                    os.chdir("..")  # Cambiar al directorio padre   
+                    os.chdir("..")  # Cambiar al directorio padre    
 
-        elif opcion == "3":
+        elif opcion == "2":
             pregunta2 = input("\033[1m\n[+] Ingresa la ubicación del archivo para analizar: \033[0m")
             opcion2 = input("\033[1m\n[+] Ingrese una ubicación para guardar lo archivos: \033[0m")
             print("\n[1] Analizar con pdfextract (extrae recursos binarios)")

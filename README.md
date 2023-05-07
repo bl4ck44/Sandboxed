@@ -1,7 +1,7 @@
 # Sandboxed
 
 <p align="center">
-<img src="Logotipo.png" width="360px" height="70px">
+<img src="Logotipo.png" width="360px" height="68px">
 </p>
 
 Un sandbox es un entorno de pruebas aislado en el que se pueden ejecutar aplicaciones o programas sin afectar el sistema operativo subyacente. Se utiliza con frecuencia para probar software nuevo, realizar pruebas de seguridad y aislar aplicaciones que pueden ser sospechosas o potencialmente maliciosas.
@@ -46,7 +46,5 @@ python3 sandbox.py
 ## Examinar documentos sospechosos
 
 * **Archivos de Microsoft Office:** pcodedmp, olevba, xlmdeobfuscator.
-
-* **Archivos RTF:** rtfobj.
 
 * **Archivos PDF:** pdfextract, pdfdecrypt,pdfresurrect.
