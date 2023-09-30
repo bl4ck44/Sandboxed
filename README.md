@@ -4,7 +4,7 @@
 <img src="Logotipo.png" width="360px" height="68px">
 </p>
 
-n sandbox es un entorno de pruebas aislado en el que se pueden ejecutar aplicaciones o programas sin afectar el sistema operativo subyacente. Se utiliza con frecuencia para probar software nuevo, realizar pruebas de seguridad y aislar aplicaciones que pueden ser sospechosas o potencialmente maliciosas.
+Un sandbox es un entorno de pruebas aislado en el que se pueden ejecutar aplicaciones o programas sin afectar el sistema operativo subyacente. Se utiliza con frecuencia para probar software nuevo, realizar pruebas de seguridad y aislar aplicaciones que pueden ser sospechosas o potencialmente maliciosas.
 
 Este repositorio te servirá para analizar malware en un entorno aislado ya que tiene herramientas útiles y facil de usar.
 
